@@ -61,6 +61,7 @@ export type TSelectableGroupProps = {
   selectOnClick?: boolean
   // Scroll container selector
   scrollContainer?: string
+  children: React.ReactNode
 
   /**
    * Event that will fire rapidly during selection (while the selector is
